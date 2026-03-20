@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Vôlei</title>
+    <link rel="shortcut icon" href="img/voleibol.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <h1>Quiz sobre Vôlei</h1>
+        <p>Teste seus conhecimentos sobre o vôlei</p>
+
+        <div class="cabecalho-menu">
+            <img src="img/YEAH.gif" alt="YEAH" class="cabecalho-menu-img">
+
+            <nav class="menu">
+                <a href="pontuacao.html">Pontuação</a>
+                <a href="respostas.html">Respostas</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-text">
+
+        <section>
+            <h2 class="main-section">Sobre esse quiz</h2>
+
+            <p>
+                Este quiz foi produzido para uma atividade do curso com o tema vôlei.
+            </p>
+
+            <p>
+                Você encontrará diferentes tipos de perguntas, incluindo múltipla escolha,
+                texto e datas. Divirta-se!
+            </p>
+        </section>
+        <form>
+            <section>
+                <h2>Pergunta 1: Quantos jogadores cada equipe tem em quadra no vôlei?</h2>
+
+                <input type="radio" name="pergunta1" id="p1a">
+                <label for="p1a">5</label><br>
+
+                <input type="radio" name="pergunta1" id="p1b">
+                <label for="p1b">6</label><br>
+
+                <input type="radio" name="pergunta1" id="p1c">
+                <label for="p1c">7</label><br>
+
+                <input type="radio" name="pergunta1" id="p1d">
+                <label for="p1d">8</label>
+            </section>
+
+
+            <section>
+                <h2>Pergunta 2: Qual é o principal objetivo do jogo de vôlei?</h2>
+
+                <input type="text" name="pergunta2" id="p2" placeholder="Digite sua resposta...">
+            </section>
+
+
+            <section>
+                <h2>Pergunta 3: Em que ano o vôlei foi criado?</h2>
+
+                <input type="date" name="pergunta3" id="p3">
+            </section>
+
+
+            <section>
+                <h2>Pergunta 4: Quais dessas opções são fundamentos do vôlei?</h2>
+
+                <input type="checkbox" id="p4a" value="saque">
+                <label for="p4a">Saque</label>
+
+                <input type="checkbox" id="p4b" value="manchete">
+                <label for="p4b">Manchete</label>
+
+                <input type="checkbox" id="p4c" value="drible">
+                <label for="p4c">Drible</label>
+
+                <input type="checkbox" id="p4d" value="bloqueio">
+                <label for="p4d">Bloqueio</label>
+            </section>
+
+
+            <section>
+                <h2>Pergunta 5: Faça upload de uma imagem relacionada ao vôlei</h2>
+
+                <input type="file" name="pergunta5" id="p5">
+            </section>
+
+
+            <section>
+                <h2>Pergunta 6: Selecione o fundamento usado para iniciar o jogo:</h2>
+
+                <select name="pergunta6" id="p6" class="menu-suspenso">
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="saque">Saque</option>
+                    <option value="recepção">Recepção</option>
+                    <option value="ataque">Ataque</option>
+                    <option value="bloqueio">Bloqueio</option>
+                </select>
+            </section>
+
+
+            <section>
+                <h2>Pergunta 7: Qual ação do vôlei é representada pela imagem abaixo?</h2>
+
+                <figure>
+                    <img src="img/BLOKI-ADO.jpg" alt="Bloqueio" width="300px" class="figure-img">
+                    <figcaption>
+                        Figura 1: uma ação no meio de uma partida de vôlei
+                    </figcaption>
+                </figure>
+
+                <input type="text" name="pergunta7" id="p7" placeholder="Digite sua resposta...">
+            </section>
+
+
+            <section>
+                <h2>Pergunta 8: Digite um exemplo de senha forte</h2>
+
+                <input type="password" name="pergunta8" id="p8" placeholder="Digite uma senha forte...">
+            </section>
+
+        </form>
+<button onclick="alert('quiz enviado')"> Enviar quiz </button>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; Quiz de voleibol. Todos os direitos reservados.</p>
+
+        <p>
+            Para conhecer mais sobre mim:
+            <a href="https://isabellanave.github.io/portifolio/" class="footer-link" target="_blank">Clique aqui</a>
+        </p>
+       
+    </footer>
+
+</body>
+
+</html>

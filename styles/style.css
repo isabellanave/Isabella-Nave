@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Datatype:wght@100..900&display=swap');
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+
+    background-color: rgb(255, 255, 255);
+
+    color: rgb(255, 234, 0);
+
+    font-family: "Datatype", monospace;
+
+    font-weight: 400;
+
+    font-size: 30px;
+
+}
+
+
+
+.cabecalho {
+
+    background-color: rgba(255, 132, 0, 0.914);
+
+    text-align: center;
+
+    padding: 20px 0 0;
+
+}
+
+
+
+.cabecalho-menu {
+
+    display: flex;
+
+    align-items: center;
+
+    margin-top: 20px;
+
+    justify-content: space-between;
+
+    margin-left: 10px;
+
+}
+
+
+
+.cabecalho-menu-img {
+
+    width: 200px;
+
+    height: auto;
+
+}
+
+
+
+.menu {
+
+    margin: auto;
+
+}
+
+
+
+.menu a {
+    margin-right: 30px;
+    padding: 20px;
+
+    text-decoration: none;
+
+    color: rgb(0, 0, 0);
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+}
+
+
+
+.menu a:hover {
+
+    background-color: rgb(255, 234, 0);
+
+    color: rgb(0, 0, 0);
+
+    border-radius: 40px;
+
+    transition: 350ms ease;
+
+}
+
+
+
+.main-text {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+    padding: 15px;
+
+}
+
+
+
+.main-section {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+input[type="radio"],
+
+input[type="checkbox"] {
+
+    accent-color: rgb(0, 0, 0);
+
+}
+
+
+
+input[type=text],
+
+input[type=password],
+
+input[type=date] input[type=email] {
+
+    width: 100%;
+    border: solid rgb(255, 247, 0) 2px;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+
+
+input::placeholder {
+
+    color: rgb(255, 132, 0);
+
+}
+
+.menu-suspenso {
+
+    cursor: pointer;
+
+    width: 30%;
+
+    height: 30px;
+
+    background-color: rgb(255, 220, 107);
+
+    color: #ff8400;
+
+    border-radius: 5px;
+
+    outline: none;
+
+    border: none;
+
+}
+
+.rodape {
+
+    background-color: rgb(255, 221, 0);
+
+    color: rgb(255, 140, 0);
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+.footer-link {
+
+    color: rgb(255, 255, 255);
+
+    text-decoration: none;
+
+}
+
+.footer-link:hover {
+
+    text-decoration: underline;
+
+}
+fieldset {
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    border: 2px solid rgb(255, 153, 0);
+
+
+
+}
+
+fieldset label {
+
+    display: block;
+
+    padding-top: 10px;
+
+}
+
+legend {
+
+    color: rgb(255, 81, 0);
+
+    padding: 0;
+
+}
+
+
+
+textarea {
+
+    background-color: transparent;
+
+    border-radius: 5px;
+
+    border: 2px solid rgb(238, 164, 164);
+
+    outline: none;
+
+}
+
+button {
+
+    background-color: rgba(50, 0, 0, 0.212);
+
+    padding: 15px;
+
+    border-radius: 5px;
+
+    border: none;
+
+}
+
+
+
+
+
+button :hover {
+
+    font-weight: bold;
+
+    border: 2px solid rgb(178, 34, 34);
+
+}
+
+details {
+
+    background-color: rgba(0, 0, 0, 0.245);
+
+    padding: 45px;
+
+    border-radius: 5px;
+
+}
+
+summary {
+
+    color: rgb(201, 0, 0);
+
+    cursor: pointer;
+
+}
+
+ol {
+
+    margin-left: 25px;
+
+    margin-top: 5px;
+
+}
+
+li {
+
+    padding: 5px;
+
+}
+
+table {
+
+    width: 100%;
+
+
+
+}
+
+thead {
+
+    background-color: rgb(255, 253, 130);
+
+    color: rgb(89, 35, 35);
+
+}
+
+td {
+
+    color: rgb(0, 0, 0);
+
+    text-align: center;
+
+    padding: 15px;
+
+}
+
+tfoot td {
+
+    background-color: brown;
+
+    color: rgb(255, 255, 255);
+
+}
